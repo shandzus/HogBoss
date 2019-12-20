@@ -1,0 +1,33 @@
+<%- include('../partials/header') %>
+
+<div class="container mt-5">
+  <h1>Reset MyPassword</h1>
+
+  <div class="row">
+
+    <div class="col-sm-8">
+      <div class="card">
+        <div class="card-body">
+
+          <!-- Makes POST request to /login route -->
+          <form action="/users/reset/<%= token %>" method="POST">
+            <div class="form-group">
+              <label for="password">New Password</label>
+              <input type="password" class="form-control" name="password" value="" placeholder="New password" autofocus="autofocus" required>
+            </div>
+            <div class="form-group">
+              <label for="confirm">New Password</label>
+              <input type="password" class="form-control" name="confirm" value="" placeholder="Confirm password" required>
+            </div>
+            <button type="submit" class="btn btn-dark">Update Password</button>
+            <a class="btn btn-light btn-lg" href="../login" role="button">CANCEL</a>
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<%- include('../partials/footer') %>
