@@ -15,7 +15,9 @@ const userSchema = new mongoose.Schema ({
   photo: String,
   resetPasswordToken: String,
   resetPasswordExpires: Date,
-  isAdmin: {type: Boolean, default: false}
+  isAdmin: {type: Boolean, default: false},
+  accessToken: String,
+  refreshToken: String
 });
 
 userSchema.plugin(passportLocalMongoose);

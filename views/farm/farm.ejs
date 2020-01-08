@@ -1,0 +1,48 @@
+<%- include('../partials/header') %>
+
+<div class="jumbotron">
+  <div class="container ">
+    <!-- <i class="fas fa-key fa-6x"></i> -->
+    <i class="fas fa-tractor fa-6x  text-center"></i>
+    <h1 class="display-3  text-center">MyFarm</h1><br>
+
+
+
+      <div >
+        <h3><%=usersFarm.farmName%></h3>
+      </div>
+      <div >
+        <form class="form-horizontal" id="FarmForm" action="/farms/upd/<%=usersFarm._id%>" method="POST">
+          <div class="form-group col-sm-6">
+              Farm Name: <input type="text" class="form-control" id="farmName" name="farmName" required value="<%=usersFarm.farmName%>">
+          </div>
+          <div class="form-group  col-sm-4">
+            Customer No: <input type="text" class="form-control" name="customerNo" value="<%=usersFarm.customerNo%>">
+          </div>
+          <div class="form-group  col-sm-2">
+            Gestation Days: <input type="text" class="form-control" name="gestationDays" value="<%=usersFarm.gestationDays%>">
+          </div>
+          <div class="form-group  col-sm-2">
+            Breeding Window: <input type="text" class="form-control" name="breedingWindow" value="<%=usersFarm.breedingWindow%>">
+          </div>
+          <div class="form-group  col-sm-2">
+            Weaning Days: <input type="text" class="form-control" name="weaningDays" value="<%=usersFarm.weaningDays%>">
+          </div>
+          <a class="card-button <% if(isManager == false) { %> <%='hideThis' %><% } %>" data-method="get" href="/farms/delete/<%=usersFarm._id%>" onclick="return confirm('Are you sure you want to delete this item?');" role="button" >
+            <i class="far fa-trash-alt  fa-3x"></i>
+          </a>
+          <a class="card-button <% if(isManager == false) { %> <%='hideThis' %><% } %>" type="submit" href="javascript: submitform()" onclick="document.getElementById('FarmForm').submit();" role="button">
+            <i class="far fa-save  fa-3x"></i>
+          </a>
+          <a class="card-button" data-method="POST" href="/farms" role="button" >
+            <i class="far fa-list-alt fa-3x"></i>
+          </a>
+        </form>
+      </div>
+
+
+
+  </div>
+</div>
+
+<%- include('../partials/footer') %>

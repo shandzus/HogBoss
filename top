@@ -1,0 +1,59 @@
+[33mcommit 7f4abbc5f1819d49ad03f359b86c5ebf2c855beb[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Shirley M. Handzus <Shirley.Handzus@JCCSCHOOLS.COM>
+Date:   Fri Dec 20 08:41:18 2019 -0600
+
+    First Commit
+
+[33mcommit f719ff8ddbcfcf203b98668a2db8e8f4a994e6bd[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Angela <8798027+angelabauer@users.noreply.github.com>
+Date:   Thu Jan 31 12:07:17 2019 +0000
+
+    Allow users to submit a secret
+
+[33mcommit 98ce8958d78eadfeb37cc7fb95c41cadf86fbd4f[m
+Author: Angela <8798027+angelabauer@users.noreply.github.com>
+Date:   Thu Jan 31 11:09:39 2019 +0000
+
+    Level 6 - Google OAuth 2.0 Authentication
+
+[33mcommit 4e8349702f16a5570f9ff9b80f7a3740ddd8b108[m
+Author: Angela <8798027+angelabauer@users.noreply.github.com>
+Date:   Mon Jan 28 15:17:44 2019 +0000
+
+    Level 5 - Cookies and Sessions
+
+[33mcommit d3b3b3a908fc01e72b99616db45e2c28f8975369[m
+Author: Angela <8798027+angelabauer@users.noreply.github.com>
+Date:   Thu Jan 24 12:44:15 2019 +0000
+
+    Level 4 - Hashing and Salting with bcrypt
+
+[33mcommit 17696f8cfe68c8f91082a98e9750d45e9e176bc3[m
+Author: Angela <8798027+angelabauer@users.noreply.github.com>
+Date:   Wed Jan 23 12:44:22 2019 +0000
+
+    Level 3 - Hashing with md5
+
+[33mcommit 92a07aa559eb29e5c9c0f50304e7b5e0674a25d1[m
+Author: Angela <8798027+angelabauer@users.noreply.github.com>
+Date:   Wed Jan 23 10:49:04 2019 +0000
+
+    Add Environment Vars
+
+[33mcommit 6b3949d4a5fb7c3b788694598c7cfc782d5c72aa[m
+Author: angelabauer <8798027+angelabauer@users.noreply.github.com>
+Date:   Wed Jan 23 10:06:12 2019 +0000
+
+    Create README.md
+
+[33mcommit 1702e1d3f75bfbeb0e43848c8bd921863ea21147[m
+Author: Angela <8798027+angelabauer@users.noreply.github.com>
+Date:   Wed Jan 23 09:57:12 2019 +0000
+
+    Level 2 - Encryption
+
+[33mcommit 7078af837299a4ff50121d67afe17d9fa522ec68[m
+Author: Angela <8798027+angelabauer@users.noreply.github.com>
+Date:   Mon Jan 21 12:50:13 2019 +0000
+
+    Level 1 - Username and Password Only
